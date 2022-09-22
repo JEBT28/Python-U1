@@ -1,4 +1,4 @@
-
+#Ejercicio 1
 def secuencia(n,m):
     lista = [n]
 
