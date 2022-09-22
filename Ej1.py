@@ -10,38 +10,12 @@ def secuencia(n,m):
     return lista
 
 
-n = 125
-m = 5
+n = int(input('n: '))
+m = int(input('m: '))
 
 resultado = secuencia(n,m)
-print('Prueba'.center(50,'='))
+print('Resultado'.center(50,'='))
 print(f'n: {n}')
 print(f'm: {m}')
 print(f'secuencia: {resultado}')
 
-n = 30
-m = 3
-
-resultado = secuencia(n,m)
-print('Prueba'.center(50,'='))
-print(f'n: {n}')
-print(f'm: {m}')
-print(f'secuencia: {resultado}')
-
-n = 256
-m = 2
-
-resultado = secuencia(n,m)
-print('Prueba'.center(50,'='))
-print(f'n: {n}')
-print(f'm: {m}')
-print(f'secuencia: {resultado}')
-
-n = 256
-m = 3
-
-resultado = secuencia(n,m)
-print('Prueba'.center(50,'='))
-print(f'n: {n}')
-print(f'm: {m}')
-print(f'secuencia: {resultado}')
