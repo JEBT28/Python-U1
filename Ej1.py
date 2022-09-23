@@ -10,7 +10,8 @@ def secuencia(n,m):
     return lista
 
 
-n = int(input('n: '))
+n = int(input('n: ')
+        )
 m = int(input('m: '))
 
 resultado = secuencia(n,m)
